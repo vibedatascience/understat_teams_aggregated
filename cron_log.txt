@@ -1,0 +1,48 @@
+=== Starting daily update at Tue Sep  2 10:21:20 EDT 2025 ===
+Running Python script...
+Traceback (most recent call last):
+  File "/Users/rchaudhary/understat_teams_data/understat_teams_aggregated_latest_season.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Python script failed
+=== Update completed at Tue Sep  2 10:21:20 EDT 2025 ===
+
+=== Starting daily update at Tue Sep  2 10:21:39 EDT 2025 ===
+Running Python script...
+/Users/rchaudhary/understat_teams_data/understat_teams_aggregated_latest_season.py:4: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+Scraping team data for 2025 season...
+  EPL... ✅ 20 teams
+  La_Liga... ✅ 20 teams
+  Bundesliga... ✅ 18 teams
+  Serie_A... ✅ 20 teams
+  Ligue_1... ✅ 18 teams
+  RFPL... ✅ 16 teams
+Traceback (most recent call last):
+  File "/Users/rchaudhary/understat_teams_data/understat_teams_aggregated_latest_season.py", line 198, in <module>
+    final_df.to_parquet(filename, compression='snappy', index=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/frame.py", line 3101, in to_parquet
+    return to_parquet(
+           ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parquet.py", line 476, in to_parquet
+    impl = get_engine(engine)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parquet.py", line 67, in get_engine
+    raise ImportError(
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+Python script failed
+=== Update completed at Tue Sep  2 10:21:54 EDT 2025 ===
+
