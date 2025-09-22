@@ -46,3 +46,18 @@ Trying to import the above resulted in these errors:
 Python script failed
 === Update completed at Tue Sep  2 10:21:54 EDT 2025 ===
 
+=== Starting daily update at Mon Sep 22 17:00:01 EDT 2025 ===
+Running Python script...
+Scraping team data for 2025 season...
+  EPL... ✅ 20 teams
+  La_Liga... ✅ 20 teams
+  Bundesliga... ✅ 18 teams
+  Serie_A... ✅ 20 teams
+  Ligue_1... ✅ 18 teams
+  RFPL... ✅ 16 teams
+
+Saved current season: understat_teams_aggregated_2025_latest.csv
+Saved combined data: understat_teams_aggregated_2014_td.csv
+Total records: 1362
+Python script completed successfully
+Pushing to GitHub...
