@@ -83,3 +83,27 @@ Saved combined data: understat_teams_aggregated_2014_td.csv
 Total records: 1362
 Python script completed successfully
 Pushing to GitHub...
+[main 837f3b4] Daily update: 2025-09-24
+ 5 files changed, 246 insertions(+), 224 deletions(-)
+To https://github.com/vibedatascience/understat_teams_aggregated.git
+   fb3141c..837f3b4  main -> main
+Successfully pushed to GitHub
+=== Update completed at Wed Sep 24 17:00:18 EDT 2025 ===
+
+=== Starting daily update at Thu Sep 25 17:00:00 EDT 2025 ===
+Running Python script...
+Scraping team data for 2025 season...
+  EPL... Error scraping EPL 2025: HTTPSConnectionPool(host='understat.com', port=443): Max retries exceeded with url: /league/EPL/2025 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14c40a390>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+⚠️ No data
+  La_Liga... Error scraping La_liga 2025: HTTPSConnectionPool(host='understat.com', port=443): Max retries exceeded with url: /league/La_liga/2025 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d77cad0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+⚠️ No data
+  Bundesliga... Error scraping Bundesliga 2025: HTTPSConnectionPool(host='understat.com', port=443): Max retries exceeded with url: /league/Bundesliga/2025 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d77cad0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+⚠️ No data
+  Serie_A... Error scraping Serie_A 2025: HTTPSConnectionPool(host='understat.com', port=443): Max retries exceeded with url: /league/Serie_A/2025 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d77c890>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+⚠️ No data
+  Ligue_1... Error scraping Ligue_1 2025: HTTPSConnectionPool(host='understat.com', port=443): Max retries exceeded with url: /league/Ligue_1/2025 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d77c800>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+⚠️ No data
+  RFPL... Error scraping RFPL 2025: HTTPSConnectionPool(host='understat.com', port=443): Max retries exceeded with url: /league/RFPL/2025 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d77c9e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+⚠️ No data
+Python script completed successfully
+Pushing to GitHub...
