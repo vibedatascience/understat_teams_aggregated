@@ -107,3 +107,24 @@ Scraping team data for 2025 season...
 ⚠️ No data
 Python script completed successfully
 Pushing to GitHub...
+[main 4579fbd] Daily update: 2025-09-25
+ 1 file changed, 24 insertions(+)
+fatal: unable to access 'https://github.com/vibedatascience/understat_teams_aggregated.git/': Could not resolve host: github.com
+Failed to push to GitHub
+=== Update completed at Thu Sep 25 17:20:01 EDT 2025 ===
+
+=== Starting daily update at Fri Sep 26 17:00:00 EDT 2025 ===
+Running Python script...
+Scraping team data for 2025 season...
+  EPL... ✅ 20 teams
+  La_Liga... ✅ 20 teams
+  Bundesliga... ✅ 18 teams
+  Serie_A... ✅ 20 teams
+  Ligue_1... ✅ 18 teams
+  RFPL... ✅ 16 teams
+
+Saved current season: understat_teams_aggregated_2025_latest.csv
+Saved combined data: understat_teams_aggregated_2014_td.csv
+Total records: 1362
+Python script completed successfully
+Pushing to GitHub...
