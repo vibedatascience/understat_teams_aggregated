@@ -832,3 +832,25 @@ Saved combined data: understat_teams_aggregated_2014_td.csv
 Total records: 1362
 Python script completed successfully
 Pushing to GitHub...
+[main dcbcd9b] Daily update: 2025-11-21
+ 5 files changed, 246 insertions(+), 224 deletions(-)
+To https://github.com/vibedatascience/understat_teams_aggregated.git
+   d6e9cd0..dcbcd9b  main -> main
+Successfully pushed to GitHub
+=== Update completed at Fri Nov 21 17:00:20 EST 2025 ===
+
+=== Starting daily update at Sat Nov 22 17:00:01 EST 2025 ===
+Running Python script...
+Scraping team data for 2025 season...
+  EPL... ✅ 20 teams
+  La_Liga... ✅ 20 teams
+  Bundesliga... ✅ 18 teams
+  Serie_A... ✅ 20 teams
+  Ligue_1... ✅ 18 teams
+  RFPL... ✅ 16 teams
+
+Saved current season: understat_teams_aggregated_2025_latest.csv
+Saved combined data: understat_teams_aggregated_2014_td.csv
+Total records: 1362
+Python script completed successfully
+Pushing to GitHub...
