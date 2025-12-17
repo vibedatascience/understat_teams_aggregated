@@ -1138,3 +1138,21 @@ Scraping team data for 2025 season...
   RFPL... ⚠️ No data
 Python script completed successfully
 Pushing to GitHub...
+[main c12203b] Daily update: 2025-12-16
+ 1 file changed, 18 insertions(+)
+To https://github.com/vibedatascience/understat_teams_aggregated.git
+   6ed2bc5..c12203b  main -> main
+Successfully pushed to GitHub
+=== Update completed at Tue Dec 16 17:00:19 EST 2025 ===
+
+=== Starting daily update at Wed Dec 17 17:00:00 EST 2025 ===
+Running Python script...
+Scraping team data for 2025 season...
+  EPL... ⚠️ No data
+  La_Liga... ⚠️ No data
+  Bundesliga... ⚠️ No data
+  Serie_A... ⚠️ No data
+  Ligue_1... ⚠️ No data
+  RFPL... ⚠️ No data
+Python script completed successfully
+Pushing to GitHub...
