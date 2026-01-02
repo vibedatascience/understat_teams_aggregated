@@ -1318,3 +1318,22 @@ Scraping team data for 2025 season...
   RFPL... ⚠️ No data
 Python script completed successfully
 Pushing to GitHub...
+[main 02d1ed4] Daily update: 2025-12-28
+ 1 file changed, 18 insertions(+)
+To https://github.com/vibedatascience/understat_teams_aggregated.git
+   69f2a01..02d1ed4  main -> main
+Successfully pushed to GitHub
+=== Update completed at Sun Dec 28 17:00:16 EST 2025 ===
+
+=== Starting daily update at Fri Jan  2 17:00:00 EST 2026 ===
+Running Python script...
+Scraping team data for 2025 season...
+  EPL... Error scraping EPL 2025: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+⚠️ No data
+  La_Liga... ⚠️ No data
+  Bundesliga... ⚠️ No data
+  Serie_A... ⚠️ No data
+  Ligue_1... ⚠️ No data
+  RFPL... ⚠️ No data
+Python script completed successfully
+Pushing to GitHub...
